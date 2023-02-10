@@ -1,0 +1,241 @@
+
+#pagina{
+    
+    background-color: #d8bafb;
+    justify-content: center;
+    
+    text-align: center;
+    
+    
+}
+
+#container{
+    padding:10px;
+    margin:10px;
+    
+    
+  
+}
+
+
+#pomodoro{
+    background-color: #b397d5;
+    width: 30%;
+    display: inline-block;
+   
+} 
+
+#pomodoroTempo{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+#minutosPomodoro, #doisPontos, #segundosPomodoro {
+   font-size: 50px;
+}
+
+
+
+
+#pomodoroBotoes{
+   text-align: center;
+   
+   margin: 20px;
+}
+
+#intervalo{
+    background-color: #7bbc6b;
+    width: 30%;
+    display: inline-block;
+}
+
+#intervaloTempo{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+#minutos_, #doisPontos_, #segundos_{
+    font-size: 50px;
+}
+
+#intervaloBotoes{
+    text-align: center;
+    margin: 20px;
+
+}
+
+button{
+   padding: 10px;
+    margin: 10px;
+    
+
+   
+   
+
+    border-radius: 10px;
+    border-color: transparent;
+    box-shadow: -4px 4px teal;
+}
+
+button:hover{
+    
+    background-color: rgb(127, 203, 203);
+}
+
+
+@media screen and (max-width: 900px) {
+
+    
+
+    #container{
+        
+        justify-content: center;
+        align-items: center;
+
+        height: 100vh;
+    }
+
+    #pomodoro{
+
+        
+        align-items: center;
+        float: left;
+        width: 100%;
+        height: 350px;
+    }
+
+    #intervalo{
+        margin-top: 10px;
+       
+        float: left;
+        width: 100%;
+      height: 350px;
+      margin-bottom: 20px;
+    }
+
+
+}
+
+
+
+@media screen and (min-height: 1000px){
+    #container{
+       
+        justify-content: center;
+        align-items: center;
+        
+        height: 100vh;
+        
+    }
+
+    #pomodoro{
+
+       
+        align-items: center;
+        float: left;
+        width: 100%;
+        height: 350px;
+    }
+
+    #intervalo{
+        margin-top: 10px;
+        
+        float: left;
+        width: 100%;
+      height: 350px;
+      margin-bottom: 20px;
+    }
+
+    button{
+        font-size: 19px;
+    }
+}
+
+/*
+#pagina{
+    
+    background-color: antiquewhite;
+    justify-content: center;
+}
+
+
+
+.pomodoro{
+    float: left;
+    width: 50%;
+    
+   
+   
+}
+
+
+
+#segundosPomodoro{
+    float: left;
+
+    width: 25%;
+   
+    
+}
+
+#doisPontos{
+    float: left;
+    
+    width: 14%;
+   
+}
+
+#minutosPomodoro{
+    float: left;
+    
+    width: 25%;
+}
+
+
+.pomodoroTempo{
+    padding-bottom: 100px;
+}
+
+#minutosPomodoro{
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+#doisPontos{
+    width: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+#segundosPomodoro{
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: left;
+    
+}
+
+.pomodoroBotoes{
+    float: inline-end;
+}
+
+.intervalo{
+    float: left;
+    width: 50%;
+}
+
+*/

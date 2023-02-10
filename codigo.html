@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" type="text/css" href="./design.css">
+    <link rel="icon" href="./relogio.png">
+    
+        
+</head>
+<body id="pagina">
+    <div id="container">
+
+        <div id="pomodoro">
+            <h1>Pomodoro</h1>
+            <div id="pomodoroTempo">
+                
+                <h1 id="minutosPomodoro"></h1>
+                <h1 id="doisPontos">:</h1>
+                <h1 id="segundosPomodoro"></h1>
+               
+            </div>
+            
+            <div id="pomodoroBotoes">
+                <button onclick="startTimer()">Iniciar</button>
+                <button onclick="stopTimer()">Parar</button>
+                <button onclick="resetTimer()">Resetar</button>
+    
+            </div>
+            
+        </div>
+        
+    
+        <script>
+            setInterval(() => {
+                document.getElementById("segundosPomodoro").innerHTML = segundosPomodoro;
+                document.getElementById("minutosPomodoro").innerHTML = minutosPomodoro;
+    
+                document.getElementById("segundos_").innerHTML = segundos_;
+                document.getElementById("minutos_").innerHTML = minutos_;
+            }, 1000);
+        </script>
+    
+        <div id="intervalo">
+            <h1>Intervalo</h1>
+            <div id="intervaloTempo">
+                <h1 id="minutos_"></h1>
+                <h1 id="doisPontos_">:</h1>
+                <h1 id="segundos_"></h1>
+            </div>
+            
+            
+            <div id="intervaloBotoes">
+                <button onclick="startTimer_()">Iniciar</button>
+                <button onclick="stopTimer_()">Parar</button>
+                <button onclick="resetTimer_()">Resetar</button>
+
+            </div>
+    
+           
+        </div>
+        
+    
+        
+    </div>
+   
+</body>
+</html>
